@@ -1,8 +1,13 @@
 // Code Keypad Component Here
 
 function Keypad (){
+    const {name, setName} = useState("name")
     return (
-        <div></div>
+        <div>
+            <input type="password" value = {name} onChange = {
+                (e) => setName(e.target.console.log("Entering password..."))
+            } ></input>
+        </div>
     )
 }
 
